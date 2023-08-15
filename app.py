@@ -65,9 +65,6 @@ if getfreaky_button:
         else:
             st.warning("Please enter the ingredients you have.")
 
-HtmlFile = open('adsense.html', 'r', encoding='utf-8')
-source_code = HtmlFile.read()
-print(source_code)
 components.html(f"""
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-{google_adsense_key}"
      crossorigin="anonymous"></script>
